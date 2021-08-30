@@ -1,0 +1,21 @@
+{
+    "marks": [{
+            "id": 1,
+            "coordX": 29,
+            "coordY": 29,
+            "content": "Dan Jukes"
+        },
+        {
+            "id": 2,
+            "coordX": 39,
+            "coordY": 39,
+            "content": "Jane Wilson"
+        },
+        {
+            "id": 3,
+            "coordX": 10,
+            "coordY": 10,
+            "content": "Unknown"
+        }
+    ]
+}

@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>НВМ - Главная</title>
+
+	<link rel="preload" href="fonts/IBMPlexSans-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="fonts/IBMPlexSans-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="fonts/IBMPlexSans-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="fonts/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="fonts/Roboto-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/style.min.css">
+
+	<link rel="preload" href="img/main-banner.jpg" as="image" type="image/jpg" media="all">
+
+	<!-- <link rel="preload" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" as="style"> -->
+	<!-- стили календаря -->
+	<!-- <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+<head>
+<body id="top">   
+	<!-- header start -->
+<header class="header"> 
+    <div class="container">
+        <div class="header__wrap">
+            <a href="index.html" class="header__logo" title="На главную">
+                <div class="header__box-logo">
+                    <img src="img/header/logo_header.jpg" alt="Логотип компании" class="header__logo">
+                </div>
+                <div class="header__box-logo-mb">
+                    <img src="img/header/logo-mb_header.jpg" alt="Логотип компании" class="header__logo-mb">
+                    <img src="img/header/logo-mb_header_menu.png" alt="Логотип компании" class="header__logo-mb-menu">
+                </div>
+            </a>
+            <nav class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item"><a class="header__menu-link" href="about.html">О компании</a></li>
+                    <li class="header__menu-item">
+                        <p class="header__menu-link">Проекты</p>
+                        <div class="header__submenu-wrap">
+                            <div class="container">
+                                <ul class="header__submenu">
+                                    <li class="header__submenu-item"><a class="header__submenu-link" href="estate.html">
+                                            <img loading="lazy" class="header__submenu-bg" src="img/estate/estate1.jpg" alt="Фото жилого проекта">
+                                            <span class="header__submenu-text"><img src="img/estate/logo-estate.png"
+                                                    alt="Логотип жилого проекта">ЖК Изумрудный город</span>
+                                        </a></li>
+                                    <li class="header__submenu-item"><a class="header__submenu-link" href="estate.html">
+                                            <img loading="lazy" class="header__submenu-bg" src="img/estate/estate2.jpg" alt="Фото жилого проекта">
+                                            <span class="header__submenu-text"><img src="img/estate/logo-estate.png"
+                                                    alt="Логотип жилого проекта">ЖК Золотой город</span>
+                                        </a></li>
+                                    <li class="header__submenu-item"><a class="header__submenu-link" href="estate.html">
+                                            <img loading="lazy" class="header__submenu-bg" src="img/estate/estate3.jpg" alt="Фото жилого проекта">
+                                            <span class="header__submenu-text"><img src="img/estate/logo-estate.png"
+                                                    alt="Логотип жилого проекта">ЖК Крепость</span>
+                                        </a></li>
+                                    <li class="header__submenu-item"><a class="header__submenu-link" href="estate.html">
+                                            <img loading="lazy" class="header__submenu-bg" src="img/estate/estate4.jpg" alt="Фото жилого проекта">
+                                            <span class="header__submenu-text"><img src="img/estate/logo-estate.png"
+                                                    alt="Логотип жилого проекта">ЖК Коппадокия</span>
+                                        </a></li>
+                                    <li class="header__submenu-item"><a class="header__submenu-link" href="estate.html">
+                                            <img loading="lazy" class="header__submenu-bg" src="img/estate/estate5.jpg" alt="Фото жилого проекта">
+                                            <span class="header__submenu-text"><img src="img/estate/logo-estate.png"
+                                                    alt="Логотип жилого проекта">ЖК Крепость2</span>
+                                        </a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="how-buy.html" class="down">Как
+                            купить?</a>
+                    </li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header__wrap-mb">
+                <div class="header__burger"><span></span></div>
+                <div class="header__inner-mb">
+                    <nav class="header__menu-mb">
+                        <ul class="header__menu-list-mb">
+                            <li class="header__menu-item-mb"><a class="header__menu-link-mb" href="about.html">О
+                                    компании</a>
+                            </li>
+                            <li class="header__menu-item-mb"><a class="header__menu-link-mb" href="how-buy.html">Как
+                                    купить</a>
+                            </li>
+                            <li class="header__menu-item-mb"><a class="header__menu-link-mb"
+                                    href="contacts.html">Контакты</a>
+                            </li>
+                            <li class="header__menu-item-mb">
+                                <p class="header__menu-link-mb">Проекты</p>
+                                <ul class="header__submenu-mb">
+                                    <li class="header__submenu-item-mb"><a class="header__submenu-link-mb"
+                                            href="estate.html">ЖК Изумрудный город</a></li>
+                                    <li class="header__submenu-item-mb"><a class="header__submenu-link-mb"
+                                            href="estate.html">ЖК Золотой город</a></li>
+                                    <li class="header__submenu-item-mb"><a class="header__submenu-link-mb"
+                                            href="estate.html">ЖК Крепость</a></li>
+                                    <li class="header__submenu-item-mb"><a class="header__submenu-link-mb"
+                                            href="estate.html">ЖК Коппадокия</a></li>
+                                    <li class="header__submenu-item-mb"><a class="header__submenu-link-mb"
+                                            href="estate.html">ЖК Крепость2</a></li>
+                                </ul>
+                            </li>
+                            <li class="header__menu-item-mb"><a class="header__menu-link-mb" href="#">Офис продаж</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__social-mb">
+                        <a href="" title="Мы в соц.сетях">
+                            <div class="header__box-insta">
+                                <img loading="lazy" src="img/socials/insta.png" alt="Логотип соц.сети" class="header__insta">
+                            </div>
+                        </a>
+                        <a href="" title="Мы в соц.сетях">
+                            <div class="header__box-yt">
+                                <img loading="lazy" src="img/socials/youtube.png" alt="Логотип соц.сети" class="heade__yt">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="tel:88005505307" class="header__phone btn" title="Позвонить нам">
+                <span>
+                    <div class="header__box-call">
+                        <img loading="lazy" src="img/header/call.png" alt="Изображение телефона" class="header__call">
+                        <img loading="lazy" src="img/header/call-menu.png" alt="Изображение телефона" class="header__call-menu">
+                    </div>
+                    <span class="header__phone-number">8 800 550 53 07</span>
+                </span>
+            </a>
+        </div>
+    </div>
+</header>
+<!-- header end -->
+
+	<main class="main-page">
+		<p class="fixed-text">Официальный сайт застройщика</p>
+		<!-- Блок banner-->
+		<section class="banner">
+			<div class="container">
+				<div class="banner__wrap">
+					<div class="banner__img-wrap">
+						<img class="banner__img" src="img/main-banner.jpg" alt="Главный баннер">
+					</div>
+					<div class="banner__inner">
+						<div class="banner__info">
+							<h1>Свой дом на юге</h1>
+							<span class="banner__subtitle">от 25&nbsp;000&nbsp;₽ в месяц</span>
+							<span class="banner__text">Дом по цене квартиры</span>
+
+						</div>
+						<div class="banner__btn-wrap">
+							<a class="banner__btn btn" href="">
+								<span class="banner__btn-inner">
+									<img class="banner__btn-img" src="img/svgSprite/play-btn.svg"
+										alt="Изображение кнопки">
+									<span class="banner__btn-text">Смотреть видео</span>
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Блок  advantages-->   
+		<section class="advantages">
+			<div class="container">
+				<div class="advantages__wrap">
+					<div class="advantages__download">
+						<img loading="lazy" class="advantages__banner-img" src="img/main-banner.jpg"
+							alt="Изображение баннера">
+						<a class="advantages__link btn" href="about.html#documents">
+							<span class="advantages__link-wrap">
+								<img loading="lazy" class="advantages__btn-img" src="img/svgSprite/documents.svg"
+									alt="Иконка кнопки">
+								<span class="advantages__btn-text">Смотреть документы</span>
+							</span>
+						</a>
+					</div>
+					<div class="advantages__info">
+						<h2>Застройщик</h2>
+						<div class="advantages__content">
+							<div class="advantages__text">
+								<p class="advantages__paragraph">HBM — крупнейший застройщик частных домов в ЮФО. За 9
+									лет 5000 домов в 4 мини-городах . HBM строит частные дома с коммуникациями и
+									собственной территорией по цене обычных квартир. Низкую стоимость удается сохранять
+									благодаря своему производству и логистике: компания владеет бетонным, кровельным и
+									асфальтовым заводом. В распоряжении более 60 единиц техники. Никаких посредников и
+									наценок.</p>
+								<p class="advantages__paragraph">Соучредитель HBM лично контролирует весь процесс
+									строительства. Прозрачность, доверие и человеческий контакт — наш приоритет.</p>
+							</div>
+							<div class="advantages__group">
+								<div class="advantages__item">
+									<span class="advantages__count">5000</span>
+									<span class="advantages__advantage">домов построили</span>
+								</div>
+								<div class="advantages__item">
+									<span class="advantages__count">9 лет</span>
+									<span class="advantages__advantage">на рынке недвижимости</span>
+								</div>
+								<div class="advantages__item">
+									<span class="advantages__count">5 лет</span>
+									<span class="advantages__advantage">гарантии на дом</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Блок choice -->
+		<section class="choice">
+			<div class="container">
+				<div class="choice__wrap">
+					<h2>Вы можете выбрать</h2>
+					<div class="choice__group">
+						<div class="choice__item">
+							<span class="choice__name">Готовый дом</span>
+							<img class="choice__img lazy" data-src="img/home/home_1.png" src="" alt="Изображение дома">
+						</div>
+						<div class="choice__item">
+							<span class="choice__name">Дом на заказ</span>
+							<span class="choice__description">по индивидуальным эскизам и проектам любой
+								сложности</span>
+							<img  class="choice__img lazy" data-src="img/home/home_2.png" src="" alt="Изображение дома">
+						</div>
+						<div class="choice__item">
+							<span class="choice__name">Дом на этапе строительства</span>
+							<img class="choice__img lazy" data-src="img/home/home_3.png" src="" alt="Изображение дома">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Блок projects -->
+		<section class="projects">
+			<div class="container">
+				<div class="projects__wrap">
+					<h2 class="projects__titl ">Проекты</h2>
+					<div class="projects__item">
+						<div class="projects__info">
+							<div class="projects__name">
+								<div class="projects__wrap-img"><img loading="lazy" class="projects__img"
+										src="img/projects/logo-project.svg" alt="Логотип жилого проекта"></div>
+								<p class="projects__title">ЖК Крепость</p>
+							</div>
+							<div class="projects__video-wrap">
+								<div class="projects__video-inner">
+									<a href="" class="projects__video-link">
+										<img class="projects__prevideo-img" src="img/projects/prevideo1.jpg" alt="">
+									</a>
+									<!-- <iframe class="lazy" loading="lazy" width="560" height="315" data-src="https://www.youtube.com/embed/n324WBLN53o"
+										src="" title="YouTube video player"
+										frameborder="0"
+										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+										allowfullscreen></iframe> -->
+								</div>
+							</div>
+						</div>
+						<div class="projects__points">
+							<div class="projects__point">
+								<img loading="lazy" class="projects__point-img" src="img/svgSprite/home.svg"
+									alt="Иконка готовых домов">
+								<span class="projects__point-text">Готовых домов:</span>
+								<span class="projects__point-count">12</span>
+							</div>
+							<div class="projects__point">
+								<img loading="lazy" class="projects__point-img" src="img/svgSprite/floor-plan.svg"
+									alt="Иконка строящихся домов">
+								<span class="projects__point-text">Строящихся домов:</span>
+								<span class="projects__point-count">3000</span>
+							</div>
+							<div class="projects__point">
+								<img loading="lazy" class="projects__point-img" src="img/svgSprite/сalendar.svg"
+									alt="Иконка календаря">
+								<span class="projects__point-text">Окончание строительства:</span>
+								<span class="projects__point-count">2022</span>
+							</div>
+							<div class="projects__point">
+								<img loading="lazy" class="projects__point-img" src="img/svgSprite/money.svg"
+									alt="Иконка денег">
+								<span class="projects__point-text">Цена за м<sup>2</sup>:</span>
+								<span class="projects__point-count">от 30-50 тыс.</span>
+							</div>
+							<div class="projects__point">
+								<img loading="lazy" class="projects__point-img" src="img/svgSprite/home_geo.svg"
+									alt="Иконка адреса">
+								<span class="projects__point-text">Адрес строительства:</span>
+								<span class="projects__point-count">Дорожная улица (перед Кубанским станом)</span>
+							</div>
+						</div>
+						<a href="" class="projects__details btn">
+							<span class="projects__link-inner">
+								<img loading="lazy" class="projects__btn-img" src="img/svgSprite/zoom.svg"
+									alt="Иконка лупы">
+								<span class="projects__btn-text">Выбрать дом</span>
+							</span>
+						</a>
+
+					</div>
+					<div class="projects__item">
+						<div class="projects__info">
+							<div class="projects__name">
+								<div class="projects__wrap-img"><img loading="lazy" class="projects__img"
+										src="img/projects/logo-project.svg" alt="Логотип жилого проекта"></div>
+								<p class="projects__title">ЖК Золотой город</p>
+							</div>
+							<div class="projects__video-wrap">
+								<div class="projects__video-inner">
+									<a href="" class="projects__video-link">
+										<img loading="lazy" class="projects__prevideo-img" src="img/projects/prevideo2.jpg" alt="">
+									</a>
+									<!-- <iframe class="lazy" loading="lazy" width="560" height="315" data-src="https://www.youtube.com/embed/n324WBLN53o"
+										src="" title="YouTube video player"
+										frameborder="0"
+										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+										allowfullscreen></iframe> -->
+								</div>
+							</div>
+						</div>
+						<div class="projects__points">
+							<div class="projects__point">
+								<img loading="lazy" class="projects__point-img" src="img/svgSprite/home.svg"
+									alt="Иконка готовых домов">
+								<span class="projects__point-text">Готовых домов:</span>
+								<span class="projects__point-count">12</span>
+							</div>
+							<div class="projects__point">
+								<img loading="lazy" class="projects__point-img" src="img/svgSprite/floor-plan.svg"
+									alt="Иконка строящихся домов">
+								<span class="projects__point-text">Строящихся домов:</span>
+								<span class="projects__point-count">3000</span>
+							</div>
+							<div class="projects__point">
+								<img loading="lazy" class="projects__point-img" src="img/svgSprite/сalendar.svg"
+									alt="Иконка календаря">
+								<span class="projects__point-text">Окончание строительства:</span>
+								<span class="projects__point-count">2022</span>
+							</div>
+							<div class="projects__point">
+								<img loading="lazy" class="projects__point-img" src="img/svgSprite/money.svg"
+									alt="Иконка денег">
+								<span class="projects__point-text">Цена за м<sup>2</sup>:</span>
+								<span class="projects__point-count">от 30-50 тыс.</span>
+							</div>
+							<div class="projects__point">
+								<img loading="lazy" class="projects__point-img" src="img/svgSprite/home_geo.svg"
+									alt="Иконка адреса">
+								<span class="projects__point-text">Адрес строительства:</span>
+								<span class="projects__point-count">Дорожная улица (перед Кубанским станом)</span>
+							</div>
+						</div>
+						<a href="" class="projects__details btn">
+							<span class="projects__link-inner">
+								<img loading="lazy" class="projects__btn-img" src="img/svgSprite/zoom.svg"
+									alt="Иконка лупы">
+								<span class="projects__btn-text">Выбрать дом</span>
+							</span>
+						</a>
+
+					</div>
+					<div class="projects__item">
+						<div class="projects__info">
+							<div class="projects__name">
+								<div class="projects__wrap-img"><img loading="lazy" class="projects__img"
+										src="img/projects/logo-project.svg" alt="Логотип жилого проекта"></div>
+								<p class="projects__title">ЖК Изумрудный город</p>
+							</div>
+							<div class="projects__video-wrap">
+								<div class="projects__video-inner">
+									<a href="" class="projects__video-link">
+										<img loading="lazy" class="projects__prevideo-img" src="img/projects/prevideo3.jpg" alt="">
+									</a>
+									<!-- <iframe class="lazy" loading="lazy" width="560" height="315" data-src="https://www.youtube.com/embed/n324WBLN53o"
+										src="" title="YouTube video player"
+										frameborder="0"
+										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+										allowfullscreen></iframe> -->
+								</div>
+							</div>
+						</div>
+						<div class="projects__points">
+							<div class="projects__point">
+								<img loading="lazy" class="projects__point-img" src="img/svgSprite/home.svg"
+									alt="Иконка готовых домов">
+								<span class="projects__point-text">Готовых домов:</span>
+								<span class="projects__point-count">12</span>
+							</div>
+							<div class="projects__point">
+								<img loading="lazy" class="projects__point-img" src="img/svgSprite/floor-plan.svg"
+									alt="Иконка строящихся домов">
+								<span class="projects__point-text">Строящихся домов:</span>
+								<span class="projects__point-count">3000</span>
+							</div>
+							<div class="projects__point">
+								<img loading="lazy" class="projects__point-img" src="img/svgSprite/сalendar.svg"
+									alt="Иконка календаря">
+								<span class="projects__point-text">Окончание строительства:</span>
+								<span class="projects__point-count">2022</span>
+							</div>
+							<div class="projects__point">
+								<img loading="lazy" class="projects__point-img" src="img/svgSprite/money.svg"
+									alt="Иконка денег">
+								<span class="projects__point-text">Цена за м<sup>2</sup>:</span>
+								<span class="projects__point-count">от 30-50 тыс.</span>
+							</div>
+							<div class="projects__point">
+								<img loading="lazy" class="projects__point-img" src="img/svgSprite/home_geo.svg"
+									alt="Иконка адреса">
+								<span class="projects__point-text">Адрес строительства:</span>
+								<span class="projects__point-count">Дорожная улица (перед Кубанским станом)</span>
+							</div>
+						</div>
+						<a href="" class="projects__details btn">
+							<span class="projects__link-inner">
+								<img loading="lazy" class="projects__btn-img" src="img/svgSprite/zoom.svg"
+									alt="Иконка лупы">
+								<span class="projects__btn-text">Выбрать дом</span>
+							</span>
+						</a>
+
+					</div>
+					<div class="projects__item">
+						<div class="projects__info">
+							<div class="projects__name">
+								<div class="projects__wrap-img"><img loading="lazy" class="projects__img"
+										src="img/projects/logo-project.svg" alt="Логотип жилого проекта"></div>
+								<p class="projects__title">Поселок Коппадокия</p>
+							</div>
+							<div class="projects__video-wrap">
+								<div class="projects__video-inner">
+									<a href=""  class="projects__video-link">
+										<img loading="lazy" class="projects__prevideo-img" src="img/projects/prevideo4.jpg" alt="">
+									</a>
+									<!-- <iframe class="lazy" loading="lazy" width="560" height="315" data-src="https://www.youtube.com/embed/n324WBLN53o"
+										src="" title="YouTube video player"
+										frameborder="0"
+										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+										allowfullscreen></iframe> -->
+								</div>
+							</div>
+						</div>
+						<div class="projects__points">
+							<div class="projects__point">
+								<img loading="lazy" class="projects__point-img" src="img/svgSprite/home.svg"
+									alt="Иконка готовых домов">
+								<span class="projects__point-text">Готовых домов:</span>
+								<span class="projects__point-count">12</span>
+							</div>
+							<div class="projects__point">
+								<img loading="lazy" class="projects__point-img" src="img/svgSprite/floor-plan.svg"
+									alt="Иконка строящихся домов">
+								<span class="projects__point-text">Строящихся домов:</span>
+								<span class="projects__point-count">3000</span>
+							</div>
+							<div class="projects__point">
+								<img loading="lazy" class="projects__point-img" src="img/svgSprite/сalendar.svg"
+									alt="Иконка календаря">
+								<span class="projects__point-text">Окончание строительства:</span>
+								<span class="projects__point-count">2022</span>
+							</div>
+							<div class="projects__point">
+								<img loading="lazy" class="projects__point-img" src="img/svgSprite/money.svg"
+									alt="Иконка денег">
+								<span class="projects__point-text">Цена за м<sup>2</sup>:</span>
+								<span class="projects__point-count">от 30-50 тыс.</span>
+							</div>
+							<div class="projects__point">
+								<img loading="lazy" class="projects__point-img" src="img/svgSprite/home_geo.svg"
+									alt="Иконка адреса">
+								<span class="projects__point-text">Адрес строительства:</span>
+								<span class="projects__point-count">Дорожная улица (перед Кубанским станом)</span>
+							</div>
+						</div>
+						<a href="" class="projects__details btn">
+							<span class="projects__link-inner">
+								<img loading="lazy" class="projects__btn-img" src="img/svgSprite/zoom.svg"
+									alt="Иконка лупы">
+								<span class="projects__btn-text">Выбрать дом</span>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+    <div class="container">
+        <div class="footer__wrap">
+            <a href="index.html" class="footer__logo-link" title="На главную">
+                <div class="footer__box-logo">
+                    <img loading="lazy" class="footer__logo" src="img/svgSprite/logo_footer.svg" alt="Логотип компании">
+                </div>
+            </a>
+            <div class="footer__wrap-menu">
+                <nav class="footer__menu">
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item"><a href="about.html" class="footer__menu-link">О компании</a></li>
+                        <li class="footer__menu-item"><a href="how-buy.html" class="footer__menu-link">Как купить</a>
+                        </li>
+                        <li class="footer__menu-item"><a href="contacts.html" class="footer__menu-link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__wrap-menu">
+                <p class="footer__title-item">Проекты</p>
+                <nav class="footer__submenu">
+                    <ul class="footer__submenu-list">
+                        <li class="footer__submenu-item"><a href="project.html" class="footer__submenu-link">ЖК
+                                Крепость</a>
+                        </li>
+                        <li class="footer__submenu-item"><a href="project.html" class="footer__submenu-link">ЖК
+                                Изумрудный
+                                город</a></li>
+                        <li class="footer__submenu-item"><a href="project.html" class="footer__submenu-link">Поселок
+                                Коппадокия</a></li>
+                        <li class="footer__submenu-item"><a href="project.html" class="footer__submenu-link">ЖК Золотой
+                                город</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__wrap-menu">
+                <div class="footer__info">
+                    <p class="footer__title-item">Офис продаж</p>
+                    <address class="footer__address" title="Наш адрес">г. Краснодар ул. 1 мая, 500 А</address>
+                    <a class="footer__phone" href="tel:88005505307" title="Наш номер телефона">8 (800)-550-53-07</a>
+                    <a class="footer__mail" href="mailto:sale@mail.ru" title="Наша почта">sale@mail.ru</a>
+                    <div class="footer__social">
+                        <a class="footer__social-link" href="" title="Мы в соц.сетях">
+                            <div class="footer__box-insta">
+                                <img loading="lazy" src="img/svgSprite/insta.svg" alt="" class="footer__insta">
+                            </div>
+
+                            <span class="footer__name-social">Instagram</span>
+                        </a>
+                        <a class="footer__social-link" href="" title="Мы в соц.сетях">
+
+                            <div class="footer__box-yt">
+                                <img loading="lazy" src="img/svgSprite/youtube.svg" alt="" class="footer__yt">
+                            </div>
+                            <span class="footer__name-social">Youtube</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__scroll-wrap">
+
+            </div>
+
+            <!-- scroll -->
+            <a href="#top" class="footer__scroll-wrap">
+                <img loading="lazy" src="img/svgSprite/arrow-scroll.svg" alt="Стрелка наверх"
+                    class="footer__scroll-btn">
+            </a>
+        </div>
+        <div class="footer__polity">
+            <a class="footer__polity-link" title="Политика конфиденциальности" href="">Политика конфиденциальности</a>
+            <div class="footer__dev" title="Ссылка на компанию разработки">
+                <span class="footer__text">Сайт разработан в компании</span>
+                <a class="footer__dev-link" href="https://adverbs.ru/" target="_blank" rel=noopener>
+                    <div class="footer__box-dev">
+                        <img loading="lazy" src="img/svgSprite/adverbs.svg" alt="" class="footer__dev-logo">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- popap "Записаться на экскурсию" -->
+<div class="mfp-hide registration" id="registration-excursion">
+    <div class="registration__img-wrap">
+        <img loading="lazy" data-src="img/popap-registration.jpg" src="" alt="Изображение пары на экскурсии"
+            class="registration__img lazy"></img>
+    </div>
+    <div class="registration__content">
+        <p class="registration__title">Записаться на экскурсию</p>
+        <form action="" class="registration__form">
+            <input class="registration__input" type="text" placeholder="Имя">
+            <input class="registration__input" type="tel" placeholder="Телефон">
+            <input class="registration__input" type="text" id="datepicker" placeholder="Желаемая дата посещения">
+            <button type="submit" class="registration__submit btn">
+                <span class="registration__submit-inner">
+                    <img loading="lazy" class="registration__btn-img" src="img/svgSprite/letter.svg"
+                        alt="Иконка письма">
+                    <span class="registration__btn-text">Отправить</span>
+                </span>
+            </button>
+            <div class="registration__polity-inner">
+                <input type="checkbox" class="registration__checkbox invalid" id="polity1" name="polity">
+                <label class="registration__label " for="polity1"><span>Согласен с <a href="">политикой
+                            конфиденциальности</a></span></label>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- popap "Спасибо" -->
+<div class="mfp-hide thanks" id="registration-thanks">
+    <div class="thanks__img-wrap">
+        <img loading="lazy" class="thanks__img" data-src="img/popap-thanks.jpg" src="" alt="Изображение дома" class="thanks-img lazy">
+    </div>
+    <div class="thanks__content">
+        <p>Спасибо! Ваши данные отправлены.</p>
+    </div>
+</div>
+
+<!-- popap "Написать директору" -->
+<div class="mfp-hide director" id="write-director">
+    <div class="director__img-wrap">
+        <img loading="lazy" class="director__img" data-src="img/popap-director.jpg" src="" alt="Изображение директора"
+            class="thanks-img lazy">
+    </div>
+    <div class="director__content">
+        <p class="director__title">Написать директору:</p>
+        <form action="" class="director__form">
+            <div class="director__input-group">
+                <input class="director__input" type="text" placeholder="Имя">
+                <input class="director__input" type="tel" placeholder="Телефон">
+            </div>
+
+            <textarea class="director__ta" name="" id="" placeholder="Текст обращения"></textarea>
+
+            <div class="director__polity-wrap">
+                <div class="director__polity-inner">
+                    <input type="checkbox" class="director__checkbox invalid" id="polity2" name="polity">
+                    <label class="director__label " for="polity2"><span>Согласен с <a href="">политикой
+                                конфиденциальности</a></span></label>
+                </div>
+                <button type="submit" class="director__submit btn">
+                    <span class="director__submit-inner">
+                        <img loading="lazy" class="director__btn-img" src="img/svgSprite/letter.svg"
+                            alt="Иконка письма">
+                        <span class="director__btn-text">Отправить</span>
+                    </span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+<!-- подключение Jquery -->
+<script src="js/assets/core.min.js"></script>
+
+<!-- <script src="js/assets/jquery-3.6.0.min.js"></script> -->
+<!-- подключение popap(мод.окно) -->
+<!-- <script src="js/assets/jquery.magnific-popup.min.js"></script> -->
+<!-- подключение слайдера -->
+<!-- <script defer src="js/assets/slick.min.js"></script> -->
+<!-- подключение валидации и маски для форм -->
+<!-- <script defer src="js/assets/jquery.maskedinput.min.js"></script> -->
+<!-- <script defer src="js/assets/jquery.validate.min.js"></script> -->
+
+<!-- подключение кастомного календаря -->
+<script defer src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+<!-- подключение ЯндексКарта -->
+<!-- <script src="https://api-maps.yandex.ru/2.1/?apikey=480ab910-5782-4fed-b618-d821f3b0d05d&lang=ru_RU" type="text/javascript"></script> -->
+<!-- <script  src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" ></script> -->
+
+<!-- подключение моего скрипта -->
+<script src="js/script.min.js"></script>
+<!-- подключение моего скрипта для карты-->
+<script src="js/maps.min.js"></script>
+</body>
+
+</html>
